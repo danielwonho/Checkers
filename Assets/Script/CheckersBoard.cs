@@ -29,6 +29,21 @@ public class CheckersBoard : MonoBehaviour
 
     private Client client;
 
+    public Vector2 getStartDrag()
+    {
+        return startDrag;
+    }
+
+    public Vector2 getEndDrag()
+    {
+        return endDrag;
+    }
+
+    public Piece getSelectedPiece()
+    {
+        return selectedPiece;
+    }
+
     private void Start()
     {
         Instance = this;
