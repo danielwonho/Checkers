@@ -89,10 +89,7 @@ public class Client : MonoBehaviour
             case "SMOV":
                 CheckersBoard.Instance.TryMove(int.Parse(aData[1]), int.Parse(aData[2]), int.Parse(aData[3]), int.Parse(aData[4]));
                 break;
-
-           /* case "SMSG":
-                CheckersBoard.Instance.ChatMessage(aData[1]);
-                break; */
+		
         }
     }
 
@@ -111,10 +108,12 @@ public class Client : MonoBehaviour
     {
         CloseSocket();
     }
+
     private void OnDisable()
     {
         CloseSocket();
     }
+
     private void CloseSocket()
     {
         if (!socketReady)

@@ -35,6 +35,7 @@ public class Server : MonoBehaviour
             Debug.Log("Socket error: " + e.Message);
         }
     }
+
     private void Update()
     {
         if (!serverStarted)
@@ -76,6 +77,7 @@ public class Server : MonoBehaviour
     {
         server.BeginAcceptTcpClient(AcceptTcpClient, server);
     }
+
     private void AcceptTcpClient(IAsyncResult ar)
     {
         TcpListener listener = (TcpListener)ar.AsyncState;
@@ -131,11 +133,13 @@ public class Server : MonoBehaviour
             }
         }
     }
+
     private void Broadcast(string data, ServerClient c)
     {
         List<ServerClient> sc = new List<ServerClient> { c };
         Broadcast(data, sc);
     }
+
     // Server Read
     private void OnIncomingData(ServerClient c, string data)
     {
@@ -153,10 +157,6 @@ public class Server : MonoBehaviour
             case "CMOV":
                 Broadcast("SMOV|" + aData[1] + "|" + aData[2] + "|" + aData[3] + "|" + aData[4],clients);
                 break;
-
-           /* case "CMSG":
-                Broadcast("SMSG|" + c.clientName + " : " + aData[1],clients);
-                break;*/
         }
     }
 }

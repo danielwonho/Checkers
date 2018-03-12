@@ -55,11 +55,7 @@
      <Compile Include="Assets\Script\Client.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\Piece.cs" />
-     <Compile Include="Assets\Script\Rail\Mover.cs" />
-     <Compile Include="Assets\Script\Rail\Node.cs" />
-     <Compile Include="Assets\Script\Rail\Rail.cs" />
      <Compile Include="Assets\Script\Server.cs" />
-     <None Include="Assets\Artwork\Fantasy Skybox FREE\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>H:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -144,10 +140,6 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Christopher/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{DDF84829-5B59-A8EC-29CA-689BC244A299}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

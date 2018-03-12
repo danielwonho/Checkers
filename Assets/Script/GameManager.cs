@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         mainMenu.SetActive(false);
         connectMenu.SetActive(true);
     }
+
     public void HostButton()
     {
         try
@@ -53,6 +54,7 @@ public class GameManager : MonoBehaviour
         mainMenu.SetActive(false);
         serverMenu.SetActive(true);
     }
+
     public void ConnectToServerButton()
     {
         string hostAddress = GameObject.Find("HostInput").GetComponent<InputField>().text;
@@ -73,6 +75,7 @@ public class GameManager : MonoBehaviour
             Debug.Log(e.Message);
         }
     }
+
     public void BackButton()
     {
         mainMenu.SetActive(true);
@@ -87,12 +90,7 @@ public class GameManager : MonoBehaviour
         if (c != null)
             Destroy(c.gameObject);
     }
-   
-	/*public void HotseatButton()
-    {
-        SceneManager.LoadScene("Game");
-    }*/
-
+ 
     public void StartGame()
     {
         SceneManager.LoadScene("Game");

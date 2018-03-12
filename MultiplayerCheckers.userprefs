@@ -1,15 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\CheckersBoard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Server.cs">
     <Files>
-      <File FileName="Assets\Script\Rail\Mover.cs" Line="95" Column="1" />
-      <File FileName="Assets\Script\Rail\Node.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Rail\Rail.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\CheckersBoard.cs" Line="29" Column="25" />
-      <File FileName="Assets\Script\Client.cs" Line="113" Column="6" />
-      <File FileName="Assets\Script\GameManager.cs" Line="31" Column="37" />
-      <File FileName="Assets\Script\Piece.cs" Line="9" Column="58" />
-      <File FileName="Assets\Script\Server.cs" Line="159" Column="25" />
+      <File FileName="Assets\Script\CheckersBoard.cs" Line="247" Column="6" />
+      <File FileName="Assets\Script\Client.cs" Line="92" Column="3" />
+      <File FileName="Assets\Script\GameManager.cs" Line="18" Column="27" />
+      <File FileName="Assets\Script\Piece.cs" Line="111" Column="30" />
+      <File FileName="Assets\Script\Server.cs" Line="88" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
