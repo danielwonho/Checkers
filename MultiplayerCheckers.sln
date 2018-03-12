@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerCheckers", "Assembly-CSharp-firstpass.csproj", "{DDF84829-5B59-A8EC-29CA-689BC244A299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerCheckers", "Assembly-CSharp.csproj", "{D137004D-2061-02AB-74F6-FBCBE6E2C97B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF84829-5B59-A8EC-29CA-689BC244A299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF84829-5B59-A8EC-29CA-689BC244A299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF84829-5B59-A8EC-29CA-689BC244A299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF84829-5B59-A8EC-29CA-689BC244A299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D137004D-2061-02AB-74F6-FBCBE6E2C97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D137004D-2061-02AB-74F6-FBCBE6E2C97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D137004D-2061-02AB-74F6-FBCBE6E2C97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D137004D-2061-02AB-74F6-FBCBE6E2C97B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
